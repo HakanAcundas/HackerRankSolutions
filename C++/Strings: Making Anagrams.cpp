@@ -2,9 +2,6 @@ nt makeAnagram(string a, string b) {
     sort(a.begin(), a.end());
     sort(b.begin(), b.end());
 
-   sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-
     int i = 0;
     int j = 0;
     int ans = 0;
